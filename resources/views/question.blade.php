@@ -43,6 +43,16 @@
                                         View
                                     </a>
 
+                                    <a class="btn btn-primary float-left">
+                                       like
+                                    </a>
+
+                                    <a class="btn btn-primary float-md-left">
+                                        No
+                                    </a>
+
+
+
                                 </div>
                             </div>
                         @empty

@@ -43,13 +43,42 @@
                                         View
                                     </a>
 
-                                    <a class="btn btn-primary float-left">
-                                       like
+                                    <a class="btn btn-primary float-left" onclick="myFunction()">
+                                        Like
                                     </a>
 
-                                    <a class="btn btn-primary float-md-left">
-                                        No
+                                    <p id="demo">0</p>
+
+
+                                    <a class="btn btn-primary float-md-left" onclick="myFunction2()">
+                                        Dislike
                                     </a>
+
+                                    <p id="demo2">0</p>
+
+
+
+
+
+
+                                    <script>
+                                        var add = (function () {
+                                            var counter = 0;
+                                            return function () {return counter += 1;}
+                                        })();
+
+                                        function myFunction(){
+                                            document.getElementById("demo").innerHTML = add();
+                                        }
+
+                                        function myFunction2(){
+                                            document.getElementById("demo2").innerHTML = add();
+
+                                        }
+
+
+
+                                    </script>
 
 
 

@@ -37,14 +37,18 @@
                                                         Like
                                                     </a>
 
-                                                    <p id="demo">0</p>
+                                                <p id="demo">0</p>
 
 
                                                     <a class="btn btn-primary float-md-left" onclick="myFunction2()">
                                                         Dislike
                                                     </a>
 
-                                                    <p id="demo2">0</p>
+                                                <p id="demo2">0</p>
+
+
+
+
 
 
                                                 <script>
@@ -59,7 +63,9 @@
 
                                                         function myFunction2(){
                                                             document.getElementById("demo2").innerHTML = add();
+
                                                         }
+
 
 
                                                     </script>
